@@ -1,0 +1,456 @@
+2020-08-16 16:32:41 INFO: Opened GUI application.
+2020-08-16 16:32:46 INFO: Getting car name: 2005  
+2020-08-16 16:32:47 WARNING: No input of manufacturer.
+2020-08-16 16:32:47 WARNING: No input of name.
+2020-08-16 16:32:49 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 16:32:49 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 16:32:49 INFO: Getting odometer: 7884
+2020-08-16 16:38:45 INFO: Opened GUI application.
+2020-08-16 16:38:53 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 16:38:53 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 16:38:53 INFO: Getting odometer: 7884
+2020-08-16 16:39:07 INFO: Opened GUI application.
+2020-08-16 16:39:19 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 16:39:19 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 16:39:19 INFO: Getting odometer: 7884
+2020-08-16 16:39:44 INFO: Opened GUI application.
+2020-08-16 16:39:52 INFO: Getting car name: 2005  
+2020-08-16 16:39:53 WARNING: No input of manufacturer.
+2020-08-16 16:39:54 WARNING: No input of name.
+2020-08-16 16:39:56 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 16:39:56 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 16:39:56 INFO: Getting odometer: 7884
+2020-08-16 16:40:17 INFO: Opened GUI application.
+2020-08-16 16:40:21 INFO: Getting car name: 2005  
+2020-08-16 16:40:22 WARNING: No input of manufacturer.
+2020-08-16 16:40:23 WARNING: No input of name.
+2020-08-16 16:40:24 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 16:40:24 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 16:40:24 INFO: Getting odometer: 7884
+2020-08-16 16:40:36 INFO: Opened GUI application.
+2020-08-16 16:40:40 INFO: Getting car name: 2005  
+2020-08-16 16:40:41 WARNING: No input of manufacturer.
+2020-08-16 16:40:41 WARNING: No input of name.
+2020-08-16 16:40:42 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 16:40:42 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 16:40:42 INFO: Getting odometer: 7884
+2020-08-16 16:40:53 INFO: Opened GUI application.
+2020-08-16 16:40:59 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 16:40:59 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 16:40:59 INFO: Getting odometer: 7884
+2020-08-16 16:41:18 INFO: Opened GUI application.
+2020-08-16 16:41:24 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 16:41:24 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 16:41:24 INFO: Getting odometer: 7884
+2020-08-16 16:41:32 INFO: Opened GUI application.
+2020-08-16 16:41:37 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 16:41:37 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 16:41:37 INFO: Getting odometer: 7884
+2020-08-16 16:43:15 INFO: Opened GUI application.
+2020-08-16 16:43:20 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 16:43:20 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 16:43:20 INFO: Getting odometer: 7884
+2020-08-16 16:43:34 INFO: Opened GUI application.
+2020-08-16 16:43:39 INFO: Getting car name: 2005 D D
+2020-08-16 16:43:42 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 16:43:42 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 16:43:42 INFO: Getting odometer: 7884
+2020-08-16 16:45:32 INFO: Opened GUI application.
+2020-08-16 16:45:35 INFO: Getting car name: 2005  
+2020-08-16 16:45:36 WARNING: No input of manufacturer.
+2020-08-16 16:45:37 WARNING: No input of name.
+2020-08-16 16:45:41 INFO: Getting car name: 2005  
+2020-08-16 16:45:42 WARNING: No input of manufacturer.
+2020-08-16 16:45:42 WARNING: No input of name.
+2020-08-16 16:45:45 INFO: Getting car name: 2005  
+2020-08-16 16:45:46 WARNING: No input of manufacturer.
+2020-08-16 16:45:47 WARNING: No input of name.
+2020-08-16 16:45:47 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 16:45:47 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 16:45:47 INFO: Getting odometer: 7884
+2020-08-16 16:46:34 INFO: Opened GUI application.
+2020-08-16 16:46:36 INFO: Getting car name: 2005  
+2020-08-16 16:46:37 WARNING: No input of manufacturer.
+2020-08-16 16:46:38 WARNING: No input of name.
+2020-08-16 16:46:41 INFO: Getting car name: 2005  
+2020-08-16 16:46:42 WARNING: No input of manufacturer.
+2020-08-16 16:46:42 WARNING: No input of name.
+2020-08-16 16:46:45 INFO: Getting car name: 2005  
+2020-08-16 16:46:46 WARNING: No input of manufacturer.
+2020-08-16 16:46:46 WARNING: No input of name.
+2020-08-16 16:46:49 INFO: Getting car name: 2005  
+2020-08-16 16:46:50 WARNING: No input of manufacturer.
+2020-08-16 16:46:50 WARNING: No input of name.
+2020-08-16 16:46:53 INFO: Getting car name: 2005  
+2020-08-16 16:46:54 WARNING: No input of manufacturer.
+2020-08-16 16:46:54 WARNING: No input of name.
+2020-08-16 16:46:57 INFO: Getting car name: 2005  
+2020-08-16 16:46:57 WARNING: No input of manufacturer.
+2020-08-16 16:46:58 WARNING: No input of name.
+2020-08-16 16:47:03 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 16:47:03 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 16:47:03 INFO: Getting odometer: 7884
+2020-08-16 16:49:25 INFO: Opened GUI application.
+2020-08-16 16:49:28 INFO: Getting car name: 2005  
+2020-08-16 16:49:29 WARNING: No input of manufacturer.
+2020-08-16 16:49:29 WARNING: No input of name.
+2020-08-16 16:49:33 INFO: Getting car name: 2005 D D
+2020-08-16 16:49:36 INFO: Successfuly create car '2005 D D'.
+2020-08-16 16:49:44 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 16:49:44 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 16:49:44 INFO: Getting odometer: 7884
+2020-08-16 16:49:52 INFO: Opened GUI application.
+2020-08-16 16:49:54 INFO: Getting car name: 2005  
+2020-08-16 16:49:56 WARNING: No input of manufacturer.
+2020-08-16 16:49:56 WARNING: No input of name.
+2020-08-16 16:50:00 INFO: Getting car name: 2005 D D
+2020-08-16 16:50:03 INFO: Successfuly create car '2005 D D'.
+2020-08-16 16:50:04 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 16:50:04 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 16:50:04 INFO: Getting odometer: 7884
+2020-08-16 16:51:00 INFO: Opened GUI application.
+2020-08-16 16:51:04 INFO: Getting car name: 2005 F F
+2020-08-16 16:51:06 INFO: Successfuly create car '2005 F F'.
+2020-08-16 16:51:10 INFO: Getting car name: 2005 F F
+2020-08-16 16:51:12 INFO: Successfuly create car '2005 F F'.
+2020-08-16 16:51:13 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 16:51:13 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 16:51:13 INFO: Getting odometer: 7884
+2020-08-16 16:55:43 INFO: Opened GUI application.
+2020-08-16 16:55:49 INFO: Getting car name: 2005  
+2020-08-16 16:55:50 WARNING: No input of manufacturer.
+2020-08-16 16:55:50 WARNING: No input of name.
+2020-08-16 16:55:55 INFO: Getting car name: 2005 F F
+2020-08-16 16:55:56 INFO: Successfuly create car '2005 F F'.
+2020-08-16 16:56:00 INFO: Getting car name: 2005 F F
+2020-08-16 16:56:02 INFO: Successfuly create eletric car '2005 F F'.
+2020-08-16 16:56:10 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 16:56:10 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 16:56:10 INFO: Getting odometer: 7884
+2020-08-16 16:56:25 INFO: Opened GUI application.
+2020-08-16 16:56:31 INFO: Getting car name: 2005 D D
+2020-08-16 16:56:45 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 16:56:45 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 16:56:45 INFO: Getting odometer: 7884
+2020-08-16 16:58:52 INFO: Opened GUI application.
+2020-08-16 16:59:03 INFO: Opened GUI application.
+2020-08-16 16:59:06 INFO: Getting car name: 2005  
+2020-08-16 16:59:08 WARNING: No input of manufacturer.
+2020-08-16 16:59:09 WARNING: No input of name.
+2020-08-16 16:59:18 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 16:59:18 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 16:59:18 INFO: Getting odometer: 7884
+2020-08-16 16:59:38 INFO: Opened GUI application.
+2020-08-16 16:59:40 INFO: Getting car name: 2005  
+2020-08-16 16:59:42 WARNING: No input of manufacturer.
+2020-08-16 16:59:42 WARNING: No input of name.
+2020-08-16 16:59:46 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 16:59:46 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 16:59:46 INFO: Getting odometer: 7884
+2020-08-16 17:00:41 INFO: Opened GUI application.
+2020-08-16 17:00:43 INFO: Getting car name: 2005  
+2020-08-16 17:00:44 WARNING: No input of manufacturer.
+2020-08-16 17:00:45 WARNING: No input of name.
+2020-08-16 17:00:55 INFO: Getting car name: 2005  
+2020-08-16 17:00:57 WARNING: No input of manufacturer.
+2020-08-16 17:00:57 WARNING: No input of name.
+2020-08-16 17:01:00 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 17:01:00 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 17:01:00 INFO: Getting odometer: 7884
+2020-08-16 17:01:30 INFO: Opened GUI application.
+2020-08-16 17:01:35 INFO: Getting car name: 2005  
+2020-08-16 17:01:36 WARNING: No input of manufacturer.
+2020-08-16 17:01:36 WARNING: No input of name.
+2020-08-16 17:01:39 INFO: Getting car name: 2005 D D
+2020-08-16 17:01:42 INFO: Successfuly create eletric car '2005 D D'.
+2020-08-16 17:01:52 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 17:01:52 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 17:01:52 INFO: Getting odometer: 7884
+2020-08-16 17:03:46 INFO: Opened GUI application.
+2020-08-16 17:03:48 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 17:03:48 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 17:03:48 INFO: Getting odometer: 7884
+2020-08-16 18:06:56 INFO: Opened GUI application.
+2020-08-16 18:07:00 INFO: Getting car name: 2005  
+2020-08-16 18:07:01 WARNING: No input of manufacturer.
+2020-08-16 18:07:02 WARNING: No input of name.
+2020-08-16 18:07:16 INFO: Edited color config: #f9fd66.
+2020-08-16 18:07:30 INFO: Edited color config: #f7fe65.
+2020-08-16 18:07:37 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 18:07:37 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 18:07:37 INFO: Getting odometer: 7884
+2020-08-16 18:09:14 INFO: Opened GUI application.
+2020-08-16 18:09:22 INFO: Edited color config: #f7fe69.
+2020-08-16 18:09:24 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 18:09:24 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 18:09:24 INFO: Getting odometer: 7884
+2020-08-16 18:10:22 INFO: Opened GUI application.
+2020-08-16 18:10:27 INFO: Getting car name: 2005 F F
+2020-08-16 18:10:29 INFO: Successfuly create eletric car '2005 F F'.
+2020-08-16 18:10:34 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 18:10:34 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 18:10:34 INFO: Getting odometer: 7884
+2020-08-16 18:11:42 INFO: Opened GUI application.
+2020-08-16 18:11:45 INFO: Getting car name: 2005 D D
+2020-08-16 18:11:48 INFO: Successfuly create eletric car '2005 D D'.
+2020-08-16 18:11:52 INFO: Getting car name: 2005 D D
+2020-08-16 18:11:54 INFO: Successfuly create car '2005 D D'.
+2020-08-16 18:11:55 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 18:11:55 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 18:11:55 INFO: Getting odometer: 7884
+2020-08-16 18:26:12 INFO: Opened GUI application.
+2020-08-16 18:26:18 INFO: Getting car name: 2005 D D
+2020-08-16 18:26:21 INFO: Successfuly create eletric car '2005 D D'.
+2020-08-16 18:26:29 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 18:26:29 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 18:26:29 INFO: Getting odometer: 7884
+2020-08-16 18:35:28 INFO: Opened GUI application.
+2020-08-16 18:35:30 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 18:35:31 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 18:35:31 INFO: Getting odometer: 7884
+2020-08-16 18:50:02 INFO: Opened GUI application.
+2020-08-16 18:50:11 INFO: Edited color config: #f8fe81.
+2020-08-16 18:50:39 INFO: Edited color config: #fafeab.
+2020-08-16 18:50:49 INFO: Edited color config: #fbfec0.
+2020-08-16 18:50:59 INFO: Edited color config: #feffdf.
+2020-08-16 18:51:14 INFO: Edited color config: #f4ffdf.
+2020-08-16 18:51:35 INFO: Edited color config: #eaffff.
+2020-08-16 18:51:50 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 18:51:50 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 18:51:50 INFO: Getting odometer: 7884
+2020-08-16 18:51:54 INFO: Opened GUI application.
+2020-08-16 18:52:35 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 18:52:35 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 18:52:35 INFO: Getting odometer: 7884
+2020-08-16 18:54:43 INFO: Opened GUI application.
+2020-08-16 18:54:50 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 18:54:50 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 18:54:50 INFO: Getting odometer: 7884
+2020-08-16 19:04:28 INFO: Opened GUI application.
+2020-08-16 19:04:37 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 19:04:38 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 19:04:38 INFO: Getting odometer: 7884
+2020-08-16 19:04:59 INFO: Opened GUI application.
+2020-08-16 19:05:03 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 19:05:03 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 19:05:03 INFO: Getting odometer: 7884
+2020-08-16 19:05:05 INFO: Opened GUI application.
+2020-08-16 19:05:08 INFO: Getting car name: 2018 Audi Q5
+2020-08-16 19:05:08 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-16 19:05:08 INFO: Getting odometer: 7884
+2020-08-17 07:15:43 INFO: Opened GUI application.
+2020-08-17 07:15:47 INFO: Getting car name: 2005 3 
+2020-08-17 07:15:49 ERROR: Invalid Type <class 'int'> of manufacturer.
+2020-08-17 07:15:50 WARNING: No input of name.
+2020-08-17 07:15:52 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:15:52 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:15:52 INFO: Getting odometer: 7884
+2020-08-17 07:16:04 INFO: Opened GUI application.
+2020-08-17 07:16:07 INFO: Getting car name: 2005 F 
+2020-08-17 07:16:08 WARNING: No input of name.
+2020-08-17 07:16:12 INFO: Getting car name: 2005 2 
+2020-08-17 07:16:14 ERROR: Invalid Type <class 'int'> of manufacturer.
+2020-08-17 07:16:15 WARNING: No input of name.
+2020-08-17 07:16:16 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:16:16 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:16:16 INFO: Getting odometer: 7884
+2020-08-17 07:16:18 INFO: Opened GUI application.
+2020-08-17 07:16:22 INFO: Getting car name: 2005  3
+2020-08-17 07:16:23 WARNING: No input of manufacturer.
+2020-08-17 07:16:24 ERROR: Invalid Type <class 'int'> of name.
+2020-08-17 07:16:25 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:16:25 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:16:25 INFO: Getting odometer: 7884
+2020-08-17 07:19:51 INFO: Opened GUI application.
+2020-08-17 07:19:53 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:19:53 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:19:53 INFO: Getting odometer: 7884
+2020-08-17 07:29:14 INFO: Opened GUI application.
+2020-08-17 07:29:21 INFO: Opened GUI application.
+2020-08-17 07:29:37 INFO: Opened GUI application.
+2020-08-17 07:29:48 INFO: Opened GUI application.
+2020-08-17 07:30:01 INFO: Opened GUI application.
+2020-08-17 07:30:02 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:30:02 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:30:02 INFO: Getting odometer: 7884
+2020-08-17 07:30:53 INFO: Opened GUI application.
+2020-08-17 07:30:55 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:30:55 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:30:55 INFO: Getting odometer: 7884
+2020-08-17 07:36:31 INFO: Opened GUI application.
+2020-08-17 07:37:02 INFO: Opened GUI application.
+2020-08-17 07:37:04 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:37:04 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:37:04 INFO: Getting odometer: 7884
+2020-08-17 07:37:21 INFO: Opened GUI application.
+2020-08-17 07:37:23 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:37:23 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:37:23 INFO: Getting odometer: 7884
+2020-08-17 07:37:46 INFO: Opened GUI application.
+2020-08-17 07:38:53 INFO: Opened GUI application.
+2020-08-17 07:39:07 INFO: Opened GUI application.
+2020-08-17 07:39:16 INFO: Opened GUI application.
+2020-08-17 07:40:02 INFO: Opened GUI application.
+2020-08-17 07:41:30 INFO: Opened GUI application.
+2020-08-17 07:41:32 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:41:32 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:41:32 INFO: Getting odometer: 7884
+2020-08-17 07:41:39 INFO: Opened GUI application.
+2020-08-17 07:41:42 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:41:42 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:41:42 INFO: Getting odometer: 7884
+2020-08-17 07:48:38 INFO: Opened GUI application.
+2020-08-17 07:48:53 INFO: Opened GUI application.
+2020-08-17 07:49:08 INFO: Opened GUI application.
+2020-08-17 07:49:26 INFO: Opened GUI application.
+2020-08-17 07:50:19 INFO: Opened GUI application.
+2020-08-17 07:50:20 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:50:20 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:50:20 INFO: Getting odometer: 7884
+2020-08-17 07:50:27 INFO: Opened GUI application.
+2020-08-17 07:50:28 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:50:28 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:50:28 INFO: Getting odometer: 7884
+2020-08-17 07:50:49 INFO: Opened GUI application.
+2020-08-17 07:50:51 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:50:51 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:50:51 INFO: Getting odometer: 7884
+2020-08-17 07:51:20 INFO: Opened GUI application.
+2020-08-17 07:51:21 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:51:21 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:51:21 INFO: Getting odometer: 7884
+2020-08-17 07:51:36 INFO: Opened GUI application.
+2020-08-17 07:51:38 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:51:38 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:51:38 INFO: Getting odometer: 7884
+2020-08-17 07:52:11 INFO: Opened GUI application.
+2020-08-17 07:52:28 INFO: Opened GUI application.
+2020-08-17 07:52:30 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:52:30 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:52:30 INFO: Getting odometer: 7884
+2020-08-17 07:52:36 INFO: Opened GUI application.
+2020-08-17 07:52:38 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:52:38 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:52:38 INFO: Getting odometer: 7884
+2020-08-17 07:52:49 INFO: Opened GUI application.
+2020-08-17 07:52:52 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:52:52 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:52:52 INFO: Getting odometer: 7884
+2020-08-17 07:53:13 INFO: Opened GUI application.
+2020-08-17 07:53:19 INFO: Opened GUI application.
+2020-08-17 07:53:36 INFO: Opened GUI application.
+2020-08-17 07:53:47 INFO: Opened GUI application.
+2020-08-17 07:53:47 INFO: Opened GUI application.
+2020-08-17 07:53:49 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:53:49 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:53:49 INFO: Getting odometer: 7884
+2020-08-17 07:54:09 INFO: Opened GUI application.
+2020-08-17 07:54:10 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:54:10 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:54:10 INFO: Getting odometer: 7884
+2020-08-17 07:54:39 INFO: Opened GUI application.
+2020-08-17 07:54:41 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:54:41 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:54:41 INFO: Getting odometer: 7884
+2020-08-17 07:54:44 INFO: Opened GUI application.
+2020-08-17 07:54:45 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 07:54:45 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 07:54:45 INFO: Getting odometer: 7884
+2020-08-17 07:55:04 INFO: Opened GUI application.
+2020-08-17 08:16:58 INFO: Opened GUI application.
+2020-08-17 08:17:06 INFO: Opened GUI application.
+2020-08-17 08:17:18 INFO: Opened GUI application.
+2020-08-17 08:18:07 INFO: Opened GUI application.
+2020-08-17 08:18:08 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 08:18:08 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 08:18:08 INFO: Getting odometer: 7884
+2020-08-17 08:18:20 INFO: Opened GUI application.
+2020-08-17 08:18:26 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 08:18:27 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 08:18:27 INFO: Getting odometer: 7884
+2020-08-17 08:19:04 INFO: Opened GUI application.
+2020-08-17 08:19:05 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 08:19:05 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 08:19:05 INFO: Getting odometer: 7884
+2020-08-17 08:19:11 INFO: Opened GUI application.
+2020-08-17 08:19:13 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 08:19:13 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 08:19:13 INFO: Getting odometer: 7884
+2020-08-17 08:19:37 INFO: Opened GUI application.
+2020-08-17 08:19:39 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 08:19:39 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 08:19:39 INFO: Getting odometer: 7884
+2020-08-17 08:20:17 INFO: Opened GUI application.
+2020-08-17 08:20:19 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 08:20:19 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 08:20:19 INFO: Getting odometer: 7884
+2020-08-17 09:08:19 INFO: Opened GUI application.
+2020-08-17 09:08:34 INFO: Opened GUI application.
+2020-08-17 09:08:56 INFO: Opened GUI application.
+2020-08-17 09:08:58 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 09:08:58 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 09:08:58 INFO: Getting odometer: 7884
+2020-08-17 09:10:35 INFO: Opened GUI application.
+2020-08-17 09:10:36 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 09:10:37 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 09:10:37 INFO: Getting odometer: 7884
+2020-08-17 09:13:30 INFO: Opened GUI application.
+2020-08-17 09:13:53 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 09:13:53 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 09:13:53 INFO: Getting odometer: 7884
+2020-08-17 09:14:11 INFO: Opened GUI application.
+2020-08-17 09:15:34 INFO: Opened GUI application.
+2020-08-17 09:15:43 INFO: Opened GUI application.
+2020-08-17 09:15:51 INFO: Opened GUI application.
+2020-08-17 09:15:56 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 09:15:56 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 09:15:56 INFO: Getting odometer: 7884
+2020-08-17 09:16:31 INFO: Opened GUI application.
+2020-08-17 09:16:34 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 09:16:34 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 09:16:34 INFO: Getting odometer: 7884
+2020-08-17 09:17:50 INFO: Opened GUI application.
+2020-08-17 09:17:54 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 09:17:54 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 09:17:54 INFO: Getting odometer: 7884
+2020-08-17 09:18:06 INFO: Opened GUI application.
+2020-08-17 09:18:21 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 09:18:21 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 09:18:21 INFO: Getting odometer: 7884
+2020-08-17 09:18:52 INFO: Opened GUI application.
+2020-08-17 09:19:22 INFO: Edited color config: #f7ffff.
+2020-08-17 09:19:43 INFO: Edited color config: #e6ffff.
+2020-08-17 09:20:12 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 09:20:12 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 09:20:12 INFO: Getting odometer: 7884
+2020-08-17 09:20:53 INFO: Opened GUI application.
+2020-08-17 09:21:01 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 09:21:01 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 09:21:01 INFO: Getting odometer: 7884
+2020-08-17 09:21:16 INFO: Opened GUI application.
+2020-08-17 09:21:22 INFO: Getting car name: 2005 F F
+2020-08-17 09:21:24 INFO: Successfuly create eletric car '2005 F F'.
+2020-08-17 09:21:28 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 09:21:28 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 09:21:28 INFO: Getting odometer: 7884
+2020-08-17 09:22:04 INFO: Opened GUI application.
+2020-08-17 09:22:10 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 09:22:10 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 09:22:11 INFO: Getting odometer: 7884
+2020-08-17 09:22:42 INFO: Opened GUI application.
+2020-08-17 09:22:49 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 09:22:49 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 09:22:49 INFO: Getting odometer: 7884
+2020-08-17 09:25:01 INFO: Opened GUI application.
+2020-08-17 09:26:07 INFO: Opened GUI application.
+2020-08-17 09:26:09 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 09:26:09 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 09:26:09 INFO: Getting odometer: 7884
+2020-08-17 09:26:27 INFO: Opened GUI application.
+2020-08-17 09:26:31 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 09:26:31 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 09:26:31 INFO: Getting odometer: 7884
+2020-08-17 09:31:39 INFO: Opened GUI application.
+2020-08-17 09:31:41 INFO: Getting car name: 2018 Audi Q5
+2020-08-17 09:31:41 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-17 09:31:41 INFO: Getting odometer: 7884
