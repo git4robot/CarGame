@@ -4,11 +4,15 @@ from logging import basicConfig, warning, info, error, DEBUG
 from os import getcwd, path, mkdir
 from time import strftime, time, localtime
 from json import dump, load
-from re import findall
-from hmac import new
-from hashlib import sha384, sha512
+from re import findall, search
+from hmac import new, compare_digest
+from hashlib import sha224, sha512
 from secrets import choice
 from string import ascii_letters
+from requests import get
+from smtplib import SMTP, SMTPRecipientsRefused
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 
 class Vigenere:
       def __init__(self):
@@ -82,7 +86,6 @@ class Vigenere:
 
 class GUI():
     def __init__(self):
-        self.encrypt_login('Welcome')
         CreateLogFile()
         try:
             self.newcolor = Config('color.json').loadfile()
@@ -93,6 +96,14 @@ class GUI():
         self.root = Tk()
         self.root.title('Car Game')
         self.root.resizable(0, 0)
+        
+        try:
+              open('.\\.image\\car.ico')
+              self.root.iconbitmap('.\\.image\\car.ico')
+        except FileNotFoundError:
+              CreateFolder('.image')
+              with open('.\\.image\\car.ico', 'wb') as code:
+                    code.write(get('https://www.easyicon.net/download/ico/1284184/128/').content)
 
         self.rstr = StringVar()
         self.rint = IntVar()
@@ -128,8 +139,8 @@ class GUI():
 
         self.account = Menu(self.menu, tearoff = False)
         self.menu.add_cascade(label = 'Account Manage', menu = self.account)
-        self.account.add_command(label = 'Register', \
-                                   command = self.register)
+        self.account.add_command(label = 'Login', command = self.login)
+        self.account.add_command(label = 'Register', command = self.register)
         self.root.config(menu = self.menu)
         
         self.root.mainloop()
@@ -138,22 +149,133 @@ class GUI():
         self.registertop = Toplevel(bg = self.newcolor)
         self.registertop.title('Register')
         self.registertop.resizable(0, 0)
-        alignstr = f'250x100+{(self.screenwidth - 750) // 2}+{(self.screenheight - 600) // 2 - 50}'
+        alignstr = f'250x200+{(self.screenwidth - 750) // 2}+{(self.screenheight - 600) // 2 - 50}'
         self.registertop.geometry(alignstr)
+        self.registertop.iconbitmap('.\\.image\\car.ico')
 
-    def encrypt_login(self, password):
-        while True:
-            word = ''.join(choice(ascii_letters) for i in range(3))
-            if (any(c.islower() for c in word) and any(c.isupper() for c in word)):
-                break
+        label1 = Label(self.registertop, text = 'User Name', bg = self.newcolor).place(relx = .025, rely = .03)
+        self.username = Entry(self.registertop, bg = self.newcolor)
+        self.username.place(relx = .45, rely = .04)
 
-        encrypted_password = Vigenere().encipher(password, str(word))
-        print(encrypted_password)
-
-        sign = new(b'Thidsfs sdgis my sefgscret keyfdg', \
-                   encrypted_password.encode('utf-8'), digestmod = 'MD5').hexdigest()
-        print(sign)
+        label2 = Label(self.registertop, text = 'Email', bg = self.newcolor).place(relx = .025, rely = .14)
+        self.emailname = Entry(self.registertop, bg = self.newcolor)
+        self.emailname.place(relx = .45, rely = .15)
         
+        label3 = Label(self.registertop, text = 'Password', bg = self.newcolor).place(relx = .025, rely = .25)
+        self.password = Entry(self.registertop, bg = self.newcolor, show = '*')
+        self.password.place(relx = .45, rely = .26)
+        
+        label4 = Label(self.registertop, text = 'Confirm Password', bg = self.newcolor).place(relx = .025, rely = .36)
+        self.conpassword = Entry(self.registertop, bg = self.newcolor, show = '*')
+        self.conpassword.place(relx = .45, rely = .37)
+        
+        button = Button(self.registertop, text = 'Create Account', \
+                        command = self.registervalid, bg = self.newcolor).place(relx = .5, \
+                                                                             rely = .8, anchor = 'center')
+
+    def registervalid(self):
+        self.user = self.username.get()
+        self.em = self.emailname.get()
+        self.word = self.password.get()
+        self.cword = self.conpassword.get()
+        self.valid1 = self.valid2 = self.valid3 = self.valid4 = self.valid5 = True
+        if not self.user.split():
+            warninput = messagebox.showwarning('Warning', 'No input of username')
+            warning('No input of username.')
+            self.valid1 = False
+
+        if not self.em.split():
+            warninput = messagebox.showwarning('Warning', 'No input of email')
+            warning('No input of email.')
+            self.valid2 = False
+
+        if not self.word.split():
+            warninput = messagebox.showwarning('Warning', 'No input of password')
+            warning('No input of password.')
+            self.valid3 = False
+
+        if self.word != self.cword:
+            errorinput = messagebox.showerror('Error', 'Passwords are not the same')
+            error('Passwords are not the same.')
+            self.valid4 = False
+
+        if not self.valid1 or not self.valid2 or not self.valid3 or not self.valid4:
+            self.register()
+            
+        else:
+            self.send_email()
+            
+    def send_email(self):
+        msg = MIMEMultipart()
+        msg.attach(MIMEText(f'Dear {self.user}: \n\tYour Password is {self.word}.', 'plain', 'utf-8'))
+        
+        sender = 'GGJamesQQ@yeah.net'
+        password = 'APYDOSTDPDUOEEHQ'
+        receiver = self.em
+        receiver = 'GGJamesQQ@yeah.net' #HUHuh
+            
+        msg['From'] = sender
+        msg['To'] = receiver
+        msg['Subject'] = 'Confirm Password'
+
+        with open(getcwd() + '\\.config\\color.json', 'rb') as send_file:
+            att = MIMEText(send_file.read(), 'base64', 'utf-8')
+            att['Content-Type'] = 'application/octet-stream'
+            att['Content-Disposition'] = 'attachment;filename="color.json"'
+
+        msg.attach(att)
+        
+        smtp_server = 'smtp.yeah.net'
+        
+        server = SMTP(smtp_server, 25)
+        server.ehlo()
+        server.starttls()
+        server.login(sender, password)
+        server.set_debuglevel(False)
+        try:
+            server.sendmail(sender, receiver, msg.as_string())
+        except SMTPRecipientsRefused:
+            self.valid5 = False
+            msg['To'] = 'trashjames@sohu.com'
+            server.sendmail(sender, 'trashjames@sohu.com', msg.as_string())
+            
+        server.quit()
+        if self.valid5:
+            messagebox.showinfo('Successful', f'Successfuly create account {self.user}')
+            info(f'Successfuly create account \'{self.user}\'.')
+            self.encrypt_register(self.word)
+
+        else:
+            messagebox.showerror('Error', f'Email \'{self.em}\' is uncorrect')
+            error(f'Email \'{self.em}\' is uncorrect.')
+            self.register()
+
+    def encrypt_register(self, password):
+        encrypted_password = Vigenere().encipher(password, 'fdfskfg')
+        
+        onepass = sha512(b'2erer3asdfwerxdf34sdfsdfs90')
+        onepass.update(encrypted_password.encode())
+        import hashlib
+        signp = b'GQnIdFUUAUDlcepuaDVGJpnmfRektPLT'
+        sign = new(signp, onepass.hexdigest().encode('utf-8'), \
+                   digestmod = sha224).hexdigest()
+        
+        Account(f'{self.user}.json').createfile([onepass.hexdigest(), 'fdfskfg', sign])
+
+    def login(self):
+        self.logintop = Toplevel(bg = self.newcolor)
+        self.logintop.title('Login')
+        self.logintop.resizable(0, 0)
+        alignstr = f'250x200+{(self.screenwidth - 750) // 2}+{(self.screenheight - 600) // 2 - 50}'
+        self.logintop.geometry(alignstr)
+        self.logintop.iconbitmap('.\\.image\\car.ico')
+        self.loginuser = None
+
+    def decrypt_login(self, password):
+        loadaccount = Account(f'{self.loginuser}.json').loadfile()
+        dsign = new(signp, loadaccount[0].encode('utf-8'), digestmod = sha224).hexdigest()
+        print(compare_digest(sign, dsign))
+
     def popup(self, event):
         self.rmenu.post(event.x_root, event.y_root)
     
@@ -238,6 +360,7 @@ class GUI():
         self.batterytop.resizable(0, 0)
         alignstr = f'250x100+{(self.screenwidth - 750) // 2}+{(self.screenheight - 600) // 2 - 50}'
         self.batterytop.geometry(alignstr)
+        self.batterytop.iconbitmap('.\\.image\\car.ico')
         
         self.battery_button1 = Radiobutton(self.cartop, text = '60 -kWh', \
                                            variable = self.rint, bg = self.newcolor, \
@@ -247,9 +370,9 @@ class GUI():
         self.cartop = Toplevel(bg = self.newcolor)
         self.cartop.title('Create Car')
         self.cartop.resizable(0, 0)
-
         alignstr = f'250x200+{(self.screenwidth - 750) // 2}+{(self.screenheight - 600) // 2 - 50}'
         self.cartop.geometry(alignstr)
+        self.cartop.iconbitmap('.\\.image\\car.ico')
 
         self.radiobutton1 = Radiobutton(self.cartop, text = 'Car', variable = self.rint, \
                                         bg = self.newcolor, value = 0).pack()
@@ -307,6 +430,23 @@ class Config():
 
     def loadfile(self):
         configfolder = getcwd() + '\\.config\\%s' % self.filename
+        with open(configfolder, mode = 'r') as file:
+            self.fileinfo = load(file)
+        return self.fileinfo
+
+class Account():
+    def __init__(self, filename):
+        CreateFolder('.account')
+        self.filename = filename
+
+    def createfile(self, msg):
+        configfolder = getcwd() + '\\.account\\%s' % self.filename
+        with open(configfolder, mode = 'w+') as file:
+                dump(msg, file)
+        return
+
+    def loadfile(self):
+        configfolder = getcwd() + '\\.account\\%s' % self.filename
         with open(configfolder, mode = 'r') as file:
             self.fileinfo = load(file)
         return self.fileinfo
