@@ -153,25 +153,30 @@ class GUI():
         self.registertop.geometry(alignstr)
         self.registertop.iconbitmap('.\\.image\\car.ico')
 
-        label1 = Label(self.registertop, text = 'User Name', bg = self.newcolor).place(relx = .025, rely = .03)
+        label1 = Label(self.registertop, text = 'User Name', \
+                       bg = self.newcolor).place(relx = .025, rely = .03)
         self.username = Entry(self.registertop, bg = self.newcolor)
         self.username.place(relx = .45, rely = .04)
 
-        label2 = Label(self.registertop, text = 'Email', bg = self.newcolor).place(relx = .025, rely = .14)
+        label2 = Label(self.registertop, text = 'Email', \
+                       bg = self.newcolor).place(relx = .025, rely = .14)
         self.emailname = Entry(self.registertop, bg = self.newcolor)
         self.emailname.place(relx = .45, rely = .15)
         
-        label3 = Label(self.registertop, text = 'Password', bg = self.newcolor).place(relx = .025, rely = .25)
+        label3 = Label(self.registertop, text = 'Password', \
+                       bg = self.newcolor).place(relx = .025, rely = .25)
         self.password = Entry(self.registertop, bg = self.newcolor, show = '*')
         self.password.place(relx = .45, rely = .26)
         
-        label4 = Label(self.registertop, text = 'Confirm Password', bg = self.newcolor).place(relx = .025, rely = .36)
+        label4 = Label(self.registertop, text = 'Confirm Password', \
+                       bg = self.newcolor).place(relx = .025, rely = .36)
         self.conpassword = Entry(self.registertop, bg = self.newcolor, show = '*')
         self.conpassword.place(relx = .45, rely = .37)
         
         button = Button(self.registertop, text = 'Create Account', \
-                        command = self.registervalid, bg = self.newcolor).place(relx = .5, \
-                                                                             rely = .8, anchor = 'center')
+                        command = self.registervalid, \
+                        bg = self.newcolor).place(relx = .5, rely = .8, \
+                                                  anchor = 'center')
 
     def registervalid(self):
         self.user = self.username.get()
@@ -182,6 +187,11 @@ class GUI():
         if not self.user.split():
             warninput = messagebox.showwarning('Warning', 'No input of username')
             warning('No input of username.')
+            self.valid1 = False
+
+        if path.isfile(getcwd() + f'\\.account\\{self.user}.json'):
+            infoinput = messagebox.showinfo('Info', f'Username \'{self.user}\' has already exists')
+            warning(f'Username \'{self.user}\' has already exists.')
             self.valid1 = False
 
         if not self.em.split():
@@ -256,7 +266,7 @@ class GUI():
         onepass = sha512(b'2erer3asdfwerxdf34sdfsdfs90')
         onepass.update(encrypted_password.encode())
         import hashlib
-        signp = b'GQnIdFUUAUDlcepuaDVGJpnmfRektPLT'
+        self.signp = b'GQnIdFUUAUDlcepuaDVGJpnmfRektPLT'
         sign = new(signp, onepass.hexdigest().encode('utf-8'), \
                    digestmod = sha224).hexdigest()
         
@@ -266,14 +276,39 @@ class GUI():
         self.logintop = Toplevel(bg = self.newcolor)
         self.logintop.title('Login')
         self.logintop.resizable(0, 0)
-        alignstr = f'250x200+{(self.screenwidth - 750) // 2}+{(self.screenheight - 600) // 2 - 50}'
+        alignstr = f'250x75+{(self.screenwidth - 750) // 2}+{(self.screenheight - 600) // 2 - 50}'
         self.logintop.geometry(alignstr)
         self.logintop.iconbitmap('.\\.image\\car.ico')
-        self.loginuser = None
+
+        label1 = Label(self.logintop, text = 'User Name', \
+                       bg = self.newcolor).place(relx = .025, rely = .07)
+        self.username = Entry(self.logintop, bg = self.newcolor)
+        self.username.place(relx = .45, rely = .08)
+
+        label2 = Label(self.logintop, text = 'Password', \
+                       bg = self.newcolor).place(relx = .025, rely = .34)
+        self.password = Entry(self.logintop, bg = self.newcolor, show = '*')
+        self.password.place(relx = .45, rely = .35)
+
+        button = Button(self.logintop, text = 'Login', command = self.loginvalid, \
+                        bg = self.newcolor).place(relx = .5, rely = .8, \
+                                                  anchor = 'center')
+
+    def loginvalid(self):
+        self.userget = self.username.get()
+        self.valid = True
+        if not path.isfile(getcwd() + f'\\.account\\{self.userget}.json'):
+            infoinput = messagebox.showinfo('Info', f'Username \'{self.userget}\' hasn\'t already exists')
+            warning(f'Username \'{self.userget}\' hasn\'t already exists.')
+            self.valid = False
+            self.login()
+
+        else:
+            self.decrypt_login(self.password.get())
 
     def decrypt_login(self, password):
-        loadaccount = Account(f'{self.loginuser}.json').loadfile()
-        dsign = new(signp, loadaccount[0].encode('utf-8'), digestmod = sha224).hexdigest()
+        loadaccount = Account(f'{self.userget}.json').loadfile()
+        dsign = new(self.signp, loadaccount[0].encode('utf-8'), digestmod = sha224).hexdigest()
         print(compare_digest(sign, dsign))
 
     def popup(self, event):

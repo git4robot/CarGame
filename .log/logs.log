@@ -914,3 +914,112 @@
 2020-08-22 14:30:37 INFO: Getting car name: 2018 Audi Q5
 2020-08-22 14:30:37 INFO: Getting car name: 2020 Tesla Model 3
 2020-08-22 14:30:37 INFO: Getting odometer: 7884
+2020-08-23 07:29:27 INFO: Opened GUI application.
+2020-08-23 07:29:35 INFO: Successfuly create account 'f'.
+2020-08-23 07:29:38 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 07:29:38 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 07:29:38 INFO: Getting odometer: 7884
+2020-08-23 07:30:09 INFO: Opened GUI application.
+2020-08-23 07:30:17 INFO: Successfuly create account 'f'.
+2020-08-23 07:30:18 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 07:30:18 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 07:30:18 INFO: Getting odometer: 7884
+2020-08-23 07:31:21 INFO: Opened GUI application.
+2020-08-23 07:31:28 INFO: Successfuly create account 'f'.
+2020-08-23 07:31:29 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 07:31:29 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 07:31:29 INFO: Getting odometer: 7884
+2020-08-23 07:31:36 INFO: Opened GUI application.
+2020-08-23 07:31:46 INFO: Successfuly create account 'g'.
+2020-08-23 07:31:55 INFO: Successfuly create account 'g'.
+2020-08-23 07:31:56 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 07:31:56 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 07:31:56 INFO: Getting odometer: 7884
+2020-08-23 07:32:52 INFO: Opened GUI application.
+2020-08-23 07:32:58 INFO: Successfuly create account 'g'.
+2020-08-23 07:32:59 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 07:32:59 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 07:32:59 INFO: Getting odometer: 7884
+2020-08-23 07:33:15 INFO: Opened GUI application.
+2020-08-23 07:33:22 WARNING: '{self.user}' has already exists
+2020-08-23 07:33:26 WARNING: '{self.user}' has already exists
+2020-08-23 07:33:27 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 07:33:27 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 07:33:27 INFO: Getting odometer: 7884
+2020-08-23 07:33:35 INFO: Opened GUI application.
+2020-08-23 07:33:41 WARNING: 'g' has already exists
+2020-08-23 07:33:42 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 07:33:42 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 07:33:42 INFO: Getting odometer: 7884
+2020-08-23 15:06:38 INFO: Opened GUI application.
+2020-08-23 15:06:44 WARNING: 'f' has already exists
+2020-08-23 15:06:49 WARNING: 'g' has already exists
+2020-08-23 15:06:56 INFO: Successfuly create account 'gg'.
+2020-08-23 15:06:57 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 15:06:57 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 15:06:57 INFO: Getting odometer: 7884
+2020-08-23 15:08:42 INFO: Opened GUI application.
+2020-08-23 15:08:49 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 15:08:49 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 15:08:49 INFO: Getting odometer: 7884
+2020-08-23 15:09:26 INFO: Opened GUI application.
+2020-08-23 15:09:31 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 15:09:31 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 15:09:31 INFO: Getting odometer: 7884
+2020-08-23 15:09:37 INFO: Opened GUI application.
+2020-08-23 15:09:42 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 15:09:42 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 15:09:42 INFO: Getting odometer: 7884
+2020-08-23 15:09:47 INFO: Opened GUI application.
+2020-08-23 15:09:51 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 15:09:51 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 15:09:51 INFO: Getting odometer: 7884
+2020-08-23 15:10:00 INFO: Opened GUI application.
+2020-08-23 15:10:05 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 15:10:05 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 15:10:05 INFO: Getting odometer: 7884
+2020-08-23 15:10:19 INFO: Opened GUI application.
+2020-08-23 15:10:25 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 15:10:25 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 15:10:25 INFO: Getting odometer: 7884
+2020-08-23 15:10:45 INFO: Opened GUI application.
+2020-08-23 15:10:51 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 15:10:51 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 15:10:51 INFO: Getting odometer: 7884
+2020-08-23 15:13:27 INFO: Opened GUI application.
+2020-08-23 15:13:31 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 15:13:31 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 15:13:31 INFO: Getting odometer: 7884
+2020-08-23 15:13:39 INFO: Opened GUI application.
+2020-08-23 15:13:44 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 15:13:44 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 15:13:44 INFO: Getting odometer: 7884
+2020-08-23 15:13:48 INFO: Opened GUI application.
+2020-08-23 15:14:12 INFO: Opened GUI application.
+2020-08-23 15:14:15 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 15:14:15 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 15:14:15 INFO: Getting odometer: 7884
+2020-08-23 15:14:31 INFO: Opened GUI application.
+2020-08-23 15:14:35 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 15:14:35 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 15:14:35 INFO: Getting odometer: 7884
+2020-08-23 15:17:47 INFO: Opened GUI application.
+2020-08-23 15:17:57 INFO: Successfuly create account 'ggg'.
+2020-08-23 15:17:58 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 15:17:58 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 15:17:58 INFO: Getting odometer: 7884
+2020-08-23 15:18:01 INFO: Opened GUI application.
+2020-08-23 15:18:04 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 15:18:05 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 15:18:05 INFO: Getting odometer: 7884
+2020-08-23 15:18:15 INFO: Opened GUI application.
+2020-08-23 15:18:22 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 15:18:22 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 15:18:22 INFO: Getting odometer: 7884
+2020-08-23 15:18:35 INFO: Opened GUI application.
+2020-08-23 15:18:45 WARNING: Username '.!toplevel.!entry' hasn't already exists.
+2020-08-23 15:18:46 INFO: Getting car name: 2018 Audi Q5
+2020-08-23 15:18:46 INFO: Getting car name: 2020 Tesla Model 3
+2020-08-23 15:18:46 INFO: Getting odometer: 7884
+2020-08-23 15:19:27 INFO: Opened GUI application.
+2020-08-23 15:19:56 INFO: Opened GUI application.
